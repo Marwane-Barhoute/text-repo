@@ -1,0 +1,67 @@
+body{
+  background-color: 	#32037c;
+}
+#login-form {
+  max-width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+legend {
+  background-color: beige;
+  border: 3px solid rgb(0, 0, 0);
+  border-radius: 20px;
+  text-align: center;
+  font-size: 50px;
+  font-family: "Anton", serif;
+}
+
+label,
+input{
+  display: block;
+  margin-top: 20px;
+}
+
+#user-name,
+#password,
+#submit{
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  height: 30px;
+  border-radius: 15px;
+  font-family: "Mukta";
+  font-size: 20px;
+}
+#checkbox{
+  display: inline;
+
+}
+
+label[for="checkbox"]{
+  display: inline;
+}
+#box{
+  width: 85%;
+  margin-left: auto;
+  margin-right: auto;
+}
+fieldset{
+  padding-bottom: 25px;
+  border-radius: 20px;
+  background-color: rgb(137, 88, 235);
+}
+label{
+  font-size: 20px;
+  font-weight: bold;
+  font-family: "mukta";
+  margin-left: 10px;
+}
+#submit{
+  height: 40px;
+  display: block;
+  align-items: center;
+}
+#submit:active{
+  background-color: rgb(35, 7, 87);
+}
